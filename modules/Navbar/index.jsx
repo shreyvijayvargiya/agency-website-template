@@ -33,7 +33,7 @@ const navabarRoutes = [
 
 const Navbar = () => {
 	return (
-		<motion.div className="fixed top-4 left-1/2 -translate-x-1/2 rounded-full w-fit py-2 px-4 shadow-xl bg-black/80 border border-zinc-800 flex items-center justify-between gap-2 z-40 ring-4 ring-zinc-800 ring-opacity-50">
+		<motion.div className="fixed top-4 left-1/2 -translate-x-1/2 rounded-full w-fit py-2 px-4 shadow-xl bg-black/80 border border-zinc-800 flex items-center justify-between gap-2 z-50 ring-4 ring-zinc-800 ring-opacity-50">
 			{navabarRoutes.map((route) => (
 				<a
 					key={route.id}

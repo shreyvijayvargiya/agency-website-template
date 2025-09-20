@@ -25,7 +25,7 @@ const LoginPage = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		// Handle login logic here
-		console.log("Email:", email, "Password:", password);
+		console.log("Email:", "Password:");
 	};
 
 	return (
@@ -54,8 +54,6 @@ const LoginPage = () => {
 								name="email"
 								autoComplete="email"
 								required
-								value={email}
-								onChange={(e) => setEmail(e.target.value)}
 								className="mt-1 block w-full p-3 rounded-lg bg-transparent border border-dashed border-zinc-700 text-white focus:outline-none focus:ring-2 focus:ring-zinc-900"
 							/>
 						</div>
@@ -73,8 +71,6 @@ const LoginPage = () => {
 								name="password"
 								autoComplete="current-password"
 								required
-								value={password}
-								onChange={(e) => setPassword(e.target.value)}
 								className="mt-1 block w-full p-3 rounded-lg bg-transparent border border-dashed border-zinc-700 text-white focus:outline-none focus:ring-2 focus:ring-zinc-900"
 							/>
 						</div>
