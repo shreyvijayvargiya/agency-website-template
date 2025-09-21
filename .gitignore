@@ -3,3 +3,5 @@ yarn.lock
 yarn-error.lock
 .next
 .vercel
+package-lock.json
+next-env.d.ts
